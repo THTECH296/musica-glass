@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ececf0"/>
+    </linearGradient>
+    <radialGradient id="shine" cx=".28" cy=".1" r=".8">
+      <stop offset="0" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".9"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="220" fill="url(#bg)"/>
+  <g fill="#0b0b0d" transform="translate(4 10)">
+    <path d="M420 300 L690 246 Q716 241 716 267 L716 640 L668 640 L668 340 L468 380 L468 690 L420 690 Z"/>
+    <ellipse cx="378" cy="700" rx="92" ry="74" transform="rotate(-18 378 700)"/>
+    <ellipse cx="626" cy="650" rx="92" ry="74" transform="rotate(-18 626 650)"/>
+  </g>
+  <rect x="32" y="32" width="960" height="960" rx="220" fill="url(#shine)"/>
+  <rect x="38" y="38" width="948" height="948" rx="214" fill="none" stroke="url(#rim)" stroke-width="8"/>
+  <rect x="33" y="33" width="958" height="958" rx="219" fill="none" stroke="#000" stroke-opacity=".08" stroke-width="2"/>
+</svg>
